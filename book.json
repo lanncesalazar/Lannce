@@ -1,3 +1,12 @@
 {
-    "plugins" : [ "password-z" ]
+  "plugins" : [ "password-z" ]
+  "pluginsConfig": {
+    "password": {
+      "model": "global",
+      "settings": {
+        "password": "123456",
+        "bg-img": "...",
+      }
+    }
+  }
 }
